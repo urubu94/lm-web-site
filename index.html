@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>gym</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/regular.css" integrity="sha384-IG162Tfx2WTn//TRUi9ahZHsz47lNKzYOp0b6Vv8qltVlPkub2yj9TVwzNck6GEF" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/brands.css" integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">do not give up</h1>
+    <p>keep going</p>
+
+  </div>
+</div>
+<nav>
+  <div class="menumovil" id="menu">
+    <a href="#inicio" class="active">Inicio</a>
+    <a href=#clases>Clases</a>
+    <a href="#contacto">Contactos</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+  </div>
+      <script>
+              function myFunction() {
+              var x = document.getElementById("menu");
+              if (x.className === "menumovil") {
+              x.className += " responsive";
+              } else {
+              x.className = "menumovil";
+              }
+              }
+      </script>
+</nav>
+<div class="contenido">
+      <h1>CLASES DEL GIMNASIO</h1>
+        <h4>Podras disfrutar de estas clases y muchas más</h4>
+            <a name="clases"></a>
+              <div class="conte-galeria">
+              <div class="galeria">
+              <a target="_blank" href="image/yoga.jpg">
+                <img src="image/yoga.jpg" alt="clases yoga" width="285" height="223"/>
+              </a>
+              <div class="desc">yoga</div>
+              </div>
+              </div>
+
+
+              <div class="conte-galeria">
+              <div class="galeria">
+              <a target="_blank" href="image/calistenia.jpg">
+                <img src="image/calistenia.jpg" alt="calistenia" width="285" height="223">
+              </a>
+              <div class="desc">calistenia</div>
+              </div>
+              </div>
+
+              <div class="conte-galeria">
+              <div class="galeria">
+              <a target="_blank" href="image/powerlifting.jpg">
+                <img src="image/powerlifting.jpg" alt="powerlifting" width="285" height="223">
+              </a>
+              <div class="desc">powerlifting</div>
+              </div>
+              </div>
+
+              <div class="conte-galeria">
+              <div class="galeria">
+              <a target="_blank" href="image/crossfit.jpg">
+                <img src="image/crossfit.jpg" alt="crossfit" width="285" height="223">
+              </a>
+              <div class="desc">crosffit</div>
+              </div>
+              </div>
+
+  </div>
+              <div class="clearfix"></div>
+              <br><br>
+
+          <a name="contacto"></a>
+          <div class="formulario">
+              <a name="contactos"></a>
+                <br>
+                <br>
+                <br>
+                <br>
+                  <h2>Contacta con nosotros</h2>
+                    <form>
+                    <fieldset>
+                      <legend><span class="numero">1</span>Información personal</legend>
+                      <input type="text" name="campo1" placeholder="Tu Nombre *">
+                      <input type="email" name="campo2" placeholder="Tu Email *">
+                      <textarea name="campo3" placeholder="Sobre ti"></textarea>
+                      <label for="intereses">Intereses:</label>
+                      <select id="intereses" name="campo4">
+                        <optgroup label="Interior">
+                          <option value="futbol sala">Fútbol Sala</option>
+                          <option value="bádminton">Bádminton</option>
+                          <option value="boxeo">Boxeo</option>
+                          <option value="aerobic">Aerobic</option>
+                          <option value="zumba">Zumba</option>
+                          <option value="pilates">Pilates</option>
+                          <option value="otros_interior">Otros</option>
+                        </optgroup>
+                        <optgroup label="Aire Libre">
+                          <option value="fútbol">Fútbol</option>
+                          <option value="natación">Natación</option>
+                          <option value="pesca">Pesca</option>
+                          <option value="escalada">Escalada</option>
+                          <option value="cycling">Ciclismo</option>
+                          <option value="otros_airelibre">Otros</option>
+                        </optgroup>
+                      </select>
+                    </fieldset>
+                    <fieldset>
+                      <legend><span class="numero">2</span> Información Adicional</legend>
+                      <textarea name="campo3" placeholder="Sobre ti"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Aplicar" />
+                    </form>
+                    </div>
+                    <h1>nuestros precios</h1>
+                    <div class="columns">
+                                    <ul class="precio">
+                                    <li class="header">1 MES</li>
+                                    <li class="gris">$ 30€ / mes</li>
+                                    <li>acceso a las salas</li>
+                                    <li>clases + 15€</li>
+
+                                    <li class="gris"><a href="#" class="button">click</a></li>
+                                    </ul>
+                                    </div>
+
+                                    <div class="columns">
+                                    <ul class="precio">
+                                    <li class="header" style="background-color:#4CAF50">6 MESES</li>
+                                    <li class="gris">$ 85€ / 3 meses</li>
+                                    <li>acceso a las salas</li>
+                                    <li>clases +10€</li>
+                                    <li>acceso gratis a piscina</li>
+                                    <li>10% decuento en suplementos</li>
+                                    <li class="gris"><a href="#" class="button">click</a></li>
+                                    </ul>
+                                    </div>
+
+                                    <div class="columns">
+                                    <ul class="precio">
+                                    <li class="header">1 AÑO</li>
+                                    <li class="gris">$ 300 / 1 año</li>
+                                    <li>acceso a las salas</li>
+                                    <li>clases gratis</li>
+                                    <li>acceso gratis a la piscina</li>
+                                    <li>20% decuento en suplementos</li>
+                                    <li class="gris"><a href="#" class="button">clik</a></li>
+                                    </ul>
+                                    </div>
+
+                <footer>
+                          <i class="fab fa-instagram"style="font-size:48px;"></i>
+                          <i class="fab fa-facebook-square" style="font-size:48px;"></i>
+                          <i class="fab fa-youtube"style="font-size:48px;"></i>
+                </footer>
+
+
+  </body>
+</html>
